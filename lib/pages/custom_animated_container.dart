@@ -49,7 +49,7 @@ class _CustomAnimatedContainerState extends State<CustomAnimatedContainer> {
                     setState(() {});
                   },
                   style: TextButton.styleFrom(
-                    primary: Theme.of(context).colorScheme.onSurface,
+                    foregroundColor: Theme.of(context).colorScheme.onSurface,
                     backgroundColor: Theme.of(context).colorScheme.onPrimary,
                   ),
                   child: const Text('Animar'),
@@ -62,7 +62,7 @@ class _CustomAnimatedContainerState extends State<CustomAnimatedContainer> {
                     setState(() {});
                   },
                   style: TextButton.styleFrom(
-                    primary: Theme.of(context).colorScheme.onSurface,
+                    foregroundColor: Theme.of(context).colorScheme.onSurface,
                     backgroundColor: Theme.of(context).colorScheme.onPrimary,
                   ),
                   child: const Text('Inicio'),

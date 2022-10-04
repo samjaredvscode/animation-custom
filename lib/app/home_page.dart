@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                 Navigator.of(context).push(CustomAnimatedContainer.route());
               },
               style: TextButton.styleFrom(
-                primary: Theme.of(context).colorScheme.onSurface,
+                foregroundColor: Theme.of(context).colorScheme.onSurface,
                 backgroundColor: Theme.of(context).colorScheme.onPrimary,
               ),
               child: const Text('Custom Animated Container'),
@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                 Navigator.of(context).push(AnimationWithIntertaval.route());
               },
               style: TextButton.styleFrom(
-                primary: Theme.of(context).colorScheme.onSurface,
+                foregroundColor: Theme.of(context).colorScheme.onSurface,
                 backgroundColor: Theme.of(context).colorScheme.onPrimary,
               ),
               child: const Text('Animation with Interval'),
@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
                 Navigator.of(context).push(AnimationWithTweenSequence.route());
               },
               style: TextButton.styleFrom(
-                primary: Theme.of(context).colorScheme.onSurface,
+                foregroundColor: Theme.of(context).colorScheme.onSurface,
                 backgroundColor: Theme.of(context).colorScheme.onPrimary,
               ),
               child: const Text('Animation with Tween Sequence'),
